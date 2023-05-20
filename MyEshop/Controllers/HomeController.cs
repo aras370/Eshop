@@ -15,7 +15,6 @@ namespace MyEshop.Controllers
 {
     public class HomeController : Controller
     {
-      
         private readonly ILogger<HomeController> _logger;
 
         private IUserService _userService;
