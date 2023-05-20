@@ -1,0 +1,30 @@
+﻿@page
+@model MyEshop.Pages.Admin.Categories.DeleteModel
+@{
+    ViewData["Title"] = "حذف کاربر";
+}
+
+
+<div class="row justify-content-center">
+
+    <div class=" card mt-3" style="width: 18rem;">
+
+        <form method="post">
+            <input type="hidden" asp-for="Category.CategoryId" />
+            <div class="card-body">
+                <h5 class="card-title">حذف دسته بندی</h5>
+                <hr />
+                <p class="card-text">آیا از حذف دسته بندی مطمئن هستید؟</p>
+                <div class="row align-items-center">
+                    <label class="col-auto m-1">نام دسته بندی:  </label>
+                    <input disabled asp-for="Category.Name" class="col-auto"/>
+                </div>
+                <pre></pre>
+                <button type="submit"  class="btn btn-danger">حذف</button>
+                <a asp-page="Index" class="btn btn-primary">بازگشت</a>
+            </div>
+        </form>
+
+    </div>
+</div>
+

@@ -1,0 +1,13 @@
+﻿@model DataLayer.User
+@{
+    ViewData["Title"] = "_ActiveCode";
+}
+
+<div dir="rtl" style="padding: 20px;">
+    <h3>@Model.Name عزیز!</h3>
+    <p>ثبت نام اولیه شما انجام شد.جهت ادامه میبایست برروی لینک زیر کلیک کرده و حساب خود را فعال کنید</p>
+    <p>
+        <a href="https://localhost:7098/Home/ActiveAccount/@Model.ActiveCode">فعالسازی حساب</a>
+    </p>
+</div>
+

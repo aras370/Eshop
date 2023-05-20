@@ -1,0 +1,43 @@
+﻿@page
+@model MyEshop.Pages.Admin.Users.DeleteModel
+@{
+}
+
+
+@*<div class="container">
+    <h4 class=""> حذف کاربر</h4>
+    <hr />
+
+    <form method="post">
+        <div class="row align-items-center">
+            <label class="col-auto m-1">نام کاربر:  </label>
+            <label class="col-auto">@Model.User.Name</label>
+        </div>
+
+        <button asp-route-userid="@Model.User.UserId" type="submit" class="btn btn-danger mt-3">حذف</button>
+    </form>
+</div>*@
+
+
+<div class="row justify-content-center">
+
+    <div class=" card mt-3" style="width: 18rem;">
+
+        <form method="post">
+            <div class="card-body">
+                <h5 class="card-title">حذف کاربر</h5>
+                <hr />
+                <p class="card-text">آیا از حذف کاربر مطمئن هستید؟</p>
+                <div class="row align-items-center">
+                    <label class="col-auto m-1">نام کاربر:  </label>
+                    <label class="col-auto">@Model.User.Name</label>
+                </div>
+                <pre></pre>
+                <button type="submit" asp-route-userid="@Model.User.UserId" class="btn btn-danger">حذف</button>
+                <a asp-page="Index" class="btn btn-primary">بازگشت</a>
+            </div>
+        </form>
+
+    </div>
+</div>
+

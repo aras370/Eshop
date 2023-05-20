@@ -1,0 +1,92 @@
+﻿@page
+@model MyEshop.Pages.Admin.Users.EditModel
+@{
+    List<Role> roles = ViewData["Roles"] as List<Role>;
+}
+
+
+<form asp-page="Edit" method="post" enctype="multipart/form-data">
+
+    <input asp-for="User.AvatarName" class=" form-control" type="hidden" />
+
+    <div class="container mt-3">
+
+        <div class="row mb-3">
+            <label for="inputEmail3" class="col-sm-2 col-form-label">نام کاربری:</label>
+            <div class="col-3">
+                <input asp-for="User.Name" class=" form-control" type="text" />
+            </div>
+        </div>
+
+
+        <div class="row mb-3">
+            <label for="inputEmail3" class="col-sm-2 col-form-label">ایمیل:</label>
+            <div class="col-3">
+                <input asp-for="User.Email" class="form-control" id="inputEmail3">
+            </div>
+        </div>
+
+     
+
+        <div class="row">
+            <label for="inputEmail3" class="col-sm-2 col-form-label">تصویر:</label>
+            <img class="col-3" id="UserAvatar" src="/UserAvatar/@Model.User.AvatarName" />
+        </div>
+
+        <pre>
+
+    </pre>
+
+        <div class="row">
+            <label for="inputEmail3" class="col-md-2 col-form-label">انتخاب تصویر جدید:</label>
+
+            <input asp-for="User.UserAvatar" id="EditUserAvatar" class="col-auto" type="file" />
+        </div>
+
+        <pre>
+
+        </pre>
+
+         <div class="form-group">
+                        <label> نقش کاربر:</label>
+                        <hr />
+                        <div class="form-group">
+
+                            @foreach (var item in roles)
+                            {
+                                <div class="checkbox">
+                                    <label>
+                                        <input name="SelectedRoles" type="checkbox" value="@item.RoleId" @((Model.User.UserRoles.Any(r=>r==item.RoleId)?"checked":""))>@item.Name
+                                    </label>
+                                </div>
+                            }
+                        </div>
+                    </div>
+
+        <div asp-validation-summary="All" class="text-danger"></div>
+        <input type="submit" class="btn btn-success" value="ویرایش" />
+    </div>
+</form>
+
+
+
+@section Scripts{
+    <script>
+        function readURL(input) {
+
+            if (input.files && input.files[0]) {
+                var reader = new FileReader();
+
+                reader.onload = function(e) {
+                    $('#UserAvatar').attr('src', e.target.result);
+                }
+
+                reader.readAsDataURL(input.files[0]);
+            }
+        }
+
+        $("#EditUserAvatar").change(function() {
+            readURL(this);
+        });
+    </script>
+}

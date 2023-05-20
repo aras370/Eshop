@@ -1,0 +1,62 @@
+﻿@model UserPanelViewModel
+
+@{
+    ViewData["Title"] = "پنل کاربری";
+}
+
+
+<div class="row">
+    <div class="card col-md-4" style="width: 17rem;">
+        <img src="/UserAvatar/@Model.AvatarName" class="card-img-top ">
+        <div class="card-body">
+            <h5 class="card-title">پنل کاربری</h5>
+        </div>
+        <ul>
+             <li>
+                <a class="text-black " href="/Order/ShowCart" >سبد خرید</a>
+            </li>
+            <pre></pre>
+
+            <li>
+                <a class="text-black " asp-area="UserPanel" asp-action="EditUserPanel" asp-route-userId="@Model.UserId" >ویرایش اطلاعات کاربری</a>
+            </li>
+            <pre></pre>
+            <li>
+                <a class="text-black" asp-action="ChangePassword">تغییر کلمه عبور</a>
+            </li>
+            <pre></pre>
+             <li>
+                <a class="text-black" href="#">فاکتورها</a>
+            </li>
+        </ul>
+    </div>
+
+    <div style="margin-right: 20px; background-color: gainsboro; height: 170px" class="card col-md-8">
+        <div class="card-header">
+            <h5>
+                اطلاعات کاربری
+            </h5>
+        </div>
+        <div class="row card-body ">
+            <label class="col-md-6">
+                نام کاربری:
+                <label>@Model.Name</label>
+            </label>
+
+            <label class="col-md-6">
+                ایمیل:
+                <label>@Model.Email</label>
+            </label>
+
+            <label class="col-md-6">
+                تاریخ عضویت:
+                <label>@Model.RegisterDate</label>
+            </label>
+        </div>
+    </div>
+</div>
+<pre>
+
+
+
+</pre>

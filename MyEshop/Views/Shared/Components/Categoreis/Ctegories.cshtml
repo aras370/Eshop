@@ -1,0 +1,23 @@
+﻿@using Core
+@inject ICategoryService _categoryservice
+
+
+
+<div class="card col-2 bg-light" style="width: 12rem;">
+
+    <div class="card-body">
+        <h5 class="card-title">دسته بندی ها</h5>
+        <hr />
+    </div>
+    <ul>
+
+        @foreach (var item in _categoryservice.GetCategories())
+        {
+            <li class="mb-2">
+                <a class="text-black fw-bold" asp-controller="Product" asp-action="ShowProductInCategory" asp-route-categoryId="@item.CategoryId">@item.Name</a>
+            </li>
+
+        }
+
+    </ul>
+</div>

@@ -1,0 +1,67 @@
+﻿@page
+@model MyEshop.Pages.Admin.Users.CreateModel
+
+@{
+    ViewData["Title"] = "افزودن کاربر";
+    List<Role> roles = ViewData["Roles"] as List<Role>;
+}
+
+
+<form method="post" asp-page="Create" enctype="multipart/form-data">
+
+    <div class="row mb-3">
+        <label for="inputEmail3" class="col-sm-2 col-form-label">نام کاربری:</label>
+        <div class="col-sm-8">
+            <input  asp-for="User.Name" class="form-control" id="inputEmail3">
+        </div>
+    </div>
+
+    <div class="row mb-3">
+        <label for="inputEmail3" class="col-sm-2 col-form-label">ایمیل:</label>
+        <div class="col-sm-8">
+            <input asp-for="User.Email" type="email" class="form-control" id="inputEmail3">
+        </div>
+    </div>
+
+    <div class="row mb-3">
+        <label for="inputPassword3" class="col-sm-2 col-form-label">کلمه عبور:</label>
+        <div class="col-sm-8">
+            <input asp-for="User.Password"  class="form-control" id="inputPassword3">
+        </div>
+    </div>
+
+     <div class="row">
+        <label for="inputEmail3" class="col-sm-2 col-form-label">تصویر:</label>
+        <img id="UserAvatar" style="height:200px;width:200px;" src="/UserAvatar/Defaulte.jpg" />
+    </div>
+    <pre>
+
+    </pre>
+
+    <div class="row">
+        <label for="inputEmail3" class="col-md-2 col-form-label">انتخاب تصویر جدید:</label>
+
+        <input id="EditUserAvatar" asp-for="User.UserAvatar" class="col-md-10" type="file" />
+    </div>
+
+
+    <pre>
+    </pre>
+
+      <div class="form-group">
+          <div class="row">
+              نقش کاربر
+          </div>
+          <hr />
+            @foreach (var item in roles)
+            {
+                <div class="checkbox">
+                    <label>
+                        <input name="SelectedRoles" type="checkbox" value="@item.RoleId">@item.Name
+                    </label>
+                </div>
+            }
+        </div>
+        <pre></pre>
+    <button type="submit" class="btn btn-primary">افزودن</button>
+</form>

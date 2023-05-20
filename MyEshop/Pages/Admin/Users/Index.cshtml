@@ -1,0 +1,183 @@
+﻿@page
+@using Core
+@model MyEshop.Pages.Admin.Users.IndexModel
+@inject IUserService _userservice
+@{
+    ViewData["Title"] = "کاربران";
+}
+<pre>
+
+
+
+
+
+</pre>
+<div class="container">
+
+    <div class="row">
+        <h3 class=" col-auto">فهرست کاربران</h3>
+        <div class="col-auto offset-6">
+            <form class="d-flex">
+                <input name="parametr" class=" form-control col-auto me-2" type="search" placeholder="نام کاربری یا ایمیل را وارد کنید" aria-label="Search">
+                <button class="btn btn-primary" type="submit">جستجو</button>
+            </form>
+        </div>
+
+    </div>
+    <hr />
+<pre>
+
+</pre>
+
+@*@if (ViewData["IsSuccess"]==true)
+    {
+       <div class="alert alert-success">
+            <p class="help-block">
+                عملیات با موفقیت انجام شد
+            </p>
+        </div>
+
+        <script>
+              // Your delay in milliseconds
+                var delay = 1000; 
+                setTimeout(function () { window.location = "https://localhost:44322/Admin/Users/Index"; }, delay);
+        </script>
+    }*@
+
+    <div>
+
+        <div class="mb-3">
+            <a id="adduser" class="col-auto btn btn-success">
+                افزودن
+            </a>
+        </div>
+
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th scope="col">نام</th>
+                    <th scope="col">ایمیل</th>
+                    <th scope="col">وضعیت</th>
+                    <th scope="col">تاریخ ثبت نام</th>
+                    <th scope="col">عملیات</th>
+                </tr>
+            </thead>
+            <tbody>
+
+                @foreach (var item in Model.Users.Users)
+                {
+                    <tr>
+                        <td>@item.Name</td>
+                        <td class="col-3">@item.Email</td>
+
+                        @if (item.IsActive)
+                        {
+                            <td>فعال</td>
+                        }
+                        else
+                        {
+                            <td>غیر فعال</td>
+                        }
+                        <td>@item.RegisterDate</td>
+                        <td>
+                            <a id="delete" class="btn btn-danger" asp-page="Delete" asp-route-id="@item.UserId">حذف</a> |
+
+
+                            <a asp-page="Edit" class="btn btn-warning"  asp-route-id="@item.UserId">ویرایش</a>
+
+                        </td>
+                    </tr>
+                }
+
+            </tbody>
+        </table>
+
+    </div>
+<pre></pre>
+    <nav aria-label="Page navigation example">
+        <ul class="pagination justify-content-center">
+
+
+            @if (Model.Users.CurrentPage == 1)
+            {
+
+                <li class="page-item disabled">
+                    <a class="page-link" asp-page="Index" asp-route-pageId="@(Model.Users.CurrentPage-1)">صفحه قبل</a>
+                </li>
+            }
+
+            else
+            {
+                <li class="page-item">
+                    <a class="page-link" asp-page="Index" asp-route-pageId="@(Model.Users.CurrentPage-1)">صفحه قبل</a>
+                </li>
+            }
+
+            @for (int i = 1; i <= Model.Users.PageCount; i++)
+            {
+
+                <li class="page-item @((i==Model.Users.CurrentPage)?"active":"")">
+                    <a class="page-link" asp-page="Index" asp-route-pageId="@i">@i</a>
+                </li>
+
+            }
+
+            @if (Model.Users.CurrentPage == Model.Users.PageCount)
+            {
+                <li class="page-item disabled">
+                    <a class="page-link" asp-page="Index" asp-route-pageId="@(Model.Users.CurrentPage+1)">صفحه بعد</a>
+                </li>
+            }
+
+            else
+            {
+                <li class="page-item">
+                    <a class="page-link" asp-page="Index" asp-route-pageId="@(Model.Users.CurrentPage+1)">صفحه بعد</a>
+                </li>
+            }
+
+        </ul>
+    </nav>
+
+    <a class=" btn btn-primary" href="/">بازگشت</a>
+
+</div>
+
+
+<div id="modal" class="modal" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+
+            <div class="modal-header">
+                <h5 class="modal-title">کاربر جدید</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+
+            <div class="modal-body" id="modalbody">
+
+
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+
+
+@section Scripts{
+
+    <script>
+
+        $("#adduser").click(function() {
+
+            $.get("/Admin/Users/Create", function(result) {
+                $("#modalbody").html(result);
+                $("#modal").modal('show');
+            });
+
+        });
+        
+    </script>
+
+}

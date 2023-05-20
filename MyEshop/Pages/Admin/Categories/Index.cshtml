@@ -1,0 +1,38 @@
+﻿@page
+
+@model MyEshop.Pages.Admin.Categories.IndexModel
+
+@{
+    ViewData["Title"] = "دسته بندی ها";
+}
+
+<div class="container">
+    <table class="table">
+        <thead>
+            <tr>
+
+                <th scope="col">نام دسته بندی</th>
+                <th scope="col">عملیات</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.Categories)
+            {
+                <tr>
+
+                    <td>@item.Name</td>
+                    <td>
+                        <a class="btn btn-warning" asp-page="Edit" asp-route-id="@item.CategoryId">ویرایش</a> | <a class="btn btn-danger" asp-page="Delete" asp-route-id="@item.CategoryId">حذف</a>
+                    </td>
+
+                </tr>
+            }
+        </tbody>
+    </table>
+    <pre></pre>
+    
+        <a asp-page="Create" class="btn btn-success">افزودن</a>
+        <a href="/" class="btn btn-primary">بازگشت</a>
+   
+
+</div>

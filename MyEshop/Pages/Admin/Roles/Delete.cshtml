@@ -1,0 +1,30 @@
+﻿@page
+@model MyEshop.Pages.Admin.Roles.DeleteModel
+@{
+    ViewData["Title"] = "حذف تقش";
+}
+
+
+<div class="row justify-content-center">
+
+    <div class=" card mt-3" style="width: 18rem;">
+
+        <form method="post">
+            <input type="hidden" asp-for="Role.RoleId" />
+            <div class="card-body">
+                <h5 class="card-title">حذف نقش</h5>
+                <hr />
+                <p class="card-text">آیا از حذف نقش مطمئن هستید؟</p>
+                <div class="row align-items-center">
+                    <label class="col-auto m-1">نام نقش:  </label>
+                    <input disabled asp-for="Role.Name" class="col-auto" />
+                </div>
+                <pre></pre>
+                <button type="submit" class="btn btn-danger">حذف</button>
+                <a asp-page="Index" class="btn btn-primary">بازگشت</a>
+            </div>
+        </form>
+
+    </div>
+</div>
+

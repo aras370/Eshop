@@ -1,0 +1,47 @@
+﻿@model List<Product>
+@{
+    ViewData["Title"] = "کالاها";
+    Layout = "_Layout";
+}
+
+<div class="offset-1">
+
+    <h3>
+        @ViewBag.categoryname
+    </h3>
+    <hr />
+
+    <div class="">
+        @foreach (var item in Model)
+        {
+            <div class="bg-light card mb-3" style="max-width: 540px;">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img  src="/ProductsImages/@item.ImageName" style="height:200px; width:180px;" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">@item.Name</h5>
+                            <p class="card-text">قیمت: @item.Price تومان</p>
+                            <p class="card-text"><small class="text-muted">توضیحات: @item.Description</small></p>
+                            <p>
+                                <a class="btn btn-success" asp-controller="Order" asp-action="AddToCart" asp-route-productId="@item.ProductId">افزودن به سبد خرید</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+
+    @if (Model.Count()==0)
+    {
+        <div class="alert alert-danger">
+            متاسفانه در این دسته بندی فعلا کالایی موجود نیست
+        </div>
+    }
+    <pre>
+    </pre>
+    <a class="btn btn-primary" href="/">صفحه اصلی</a>
+</div>
+

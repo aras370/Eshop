@@ -1,0 +1,70 @@
+﻿@model List<OrderDetail>
+@{
+    ViewData["Title"] = "سبد خرید";
+}
+
+<div class="offset-1">
+
+    <h3>سبد خرید</h3>
+    <pre></pre>
+    <table class="table table-hover table-striped">
+
+        <thead>
+            <tr>
+                <th scope="col">مشتری</th>
+                <th scope="col">کالا</th>
+                <th scope="col">تعداد</th>
+                <th scope="col">قیمت</th>
+                <th scope="col">عملیات</th>
+            </tr>
+        </thead>
+        <tbody>
+
+
+
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.Order.User.Name</td>
+                    <td>@item.Product.Name</td>
+                    <td>@item.Count</td>
+                    <td>@item.Price</td>
+                    <td>
+                        <a class=" btn btn-danger" asp-action="RemoveItem" asp-route-orderDetailId="@item.OrderDetailId">-</a> |
+
+
+                        <a class="btn btn-warning" asp-action="AddItem" asp-route-orderDetailId="@item.OrderDetailId">+</a>
+                    </td>
+                </tr>
+            }
+
+        </tbody>
+    </table>
+    @if (Model.Sum(o => o.Count * o.Price) != 0)
+    {
+        <div class="row">
+
+
+            <div class="col-auto ">
+                <a class="btn btn-primary">
+                    پرداخت
+                </a>
+            </div>
+
+            <div class="col-auto ms-auto">
+                جمع کل: @Model.Sum(o=>o.Count * o.Price)
+
+            </div>
+
+        </div>
+
+    }
+
+    @if (Model.Count() == 0)
+    {
+        <div class="alert alert-danger">
+            در حال حاضر محصولی در سبد خرید شما وجود ندارد
+        </div>
+    }
+
+</div>

@@ -1,0 +1,25 @@
+﻿@{
+    ViewData["Title"] = "فعال سازی حساب";
+}
+
+
+@if (@ViewBag.isActive)
+{
+    <div class="alert alert-success">
+        <p>
+            حساب شما با موفقیت فعال شد جهت ورود به سایت بر روی لینک زیر کلیک کنید
+        </p>
+        <p>
+            <a asp-action="Login">ورود به سایت</a>
+        </p>
+    </div>
+}
+
+else
+{
+    <div class="alert alert-danger">
+        <p>
+            حسابی با مشخصات ارسال شده یافت نشد
+        </p>
+    </div>
+}
