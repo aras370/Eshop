@@ -208,5 +208,7 @@ namespace MyEshop.Controllers
 
             return View("_SuccessFulUpdatePassword");
         }
+
+        public;
     }
 }
