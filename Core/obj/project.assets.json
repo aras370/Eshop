@@ -8832,11 +8832,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\MyEshop\\Core\\Core.csproj",
+      "projectUniqueName": "C:\\Users\\Amazondigi.com\\Desktop\\Eshop\\Core\\Core.csproj",
       "projectName": "Core",
-      "projectPath": "D:\\MyEshop\\Core\\Core.csproj",
+      "projectPath": "C:\\Users\\Amazondigi.com\\Desktop\\Eshop\\Core\\Core.csproj",
       "packagesPath": "C:\\Users\\Amazondigi.com\\.nuget\\packages\\",
-      "outputPath": "D:\\MyEshop\\Core\\obj\\",
+      "outputPath": "C:\\Users\\Amazondigi.com\\Desktop\\Eshop\\Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -8857,8 +8857,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\MyEshop\\DataLayer\\DataLayer.csproj": {
-              "projectPath": "D:\\MyEshop\\DataLayer\\DataLayer.csproj"
+            "C:\\Users\\Amazondigi.com\\Desktop\\Eshop\\DataLayer\\DataLayer.csproj": {
+              "projectPath": "C:\\Users\\Amazondigi.com\\Desktop\\Eshop\\DataLayer\\DataLayer.csproj"
             }
           }
         }

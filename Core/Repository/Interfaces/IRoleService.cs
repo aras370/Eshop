@@ -37,6 +37,8 @@ namespace Core
 
         public void UpdateRolePermissions(int roleId, List<int> permissions);
 
+
+        bool CheckUserPermission(int permissionId, string userName);
      
         #endregion
 

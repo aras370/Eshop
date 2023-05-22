@@ -5,6 +5,8 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace MyEshop.Pages.Admin.Categories
 {
+    [PermissionChecker(13)]
+
     public class DeleteModel : PageModel
     {
         ICategoryService _categoryService;

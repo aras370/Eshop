@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dTj0JT6636o5k7pEK7nmH0uegNqFSydRYcKDBbUDhY6KXSJn2BkBTBlQ9ULLwFqdYs31/ga1eLFjGTEYVe3wNw==",
+  "dgSpecHash": "qg2/DfDIY7VSZoUQyczL/8pmYPBMJZRwZwqCBRwzvd9IuWma88ENIA/cRm/UHxuxNuubsRqtFEB3jSujjKoQbw==",
   "success": true,
-  "projectFilePath": "D:\\MyEshop\\MyEshop\\MyEshop.csproj",
+  "projectFilePath": "C:\\Users\\Amazondigi.com\\Desktop\\Eshop\\MyEshop\\MyEshop.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Amazondigi.com\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Amazondigi.com\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",

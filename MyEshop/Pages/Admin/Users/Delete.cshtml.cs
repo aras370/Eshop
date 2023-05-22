@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace MyEshop.Pages.Admin.Users
 {
+    [PermissionChecker(2)]
     public class DeleteModel : PageModel
     {
         IUserService _userService;

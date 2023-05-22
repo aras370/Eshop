@@ -5,6 +5,8 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace MyEshop.Pages.Admin.Roles
 {
+    [PermissionChecker(10)]
+
     public class DeleteModel : PageModel
     {
 

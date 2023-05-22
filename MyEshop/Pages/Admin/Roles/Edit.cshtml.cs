@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace MyEshop.Pages.Admin.Roles
 {
+    [PermissionChecker(9)]
     public class EditModel : PageModel
     {
         IRoleService _roleService;

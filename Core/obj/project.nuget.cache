@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "cyvmGHEtnBAmc9gjrF3IwTlix3bOf6eirhVhEr2g3BVEeFu/ui7eSEEHOzRQBhCvjem+ILEdaQ92Mpcl1j4ZzA==",
+  "dgSpecHash": "wEzNW3Amyj2hvORkYBwORnIkOvZ9qFRFKMgugBnpO8Enrt/sNIreQ65LVRsSuFWX0kO8pV8RQrh0A/dFOamvIw==",
   "success": true,
-  "projectFilePath": "D:\\MyEshop\\Core\\Core.csproj",
+  "projectFilePath": "C:\\Users\\Amazondigi.com\\Desktop\\Eshop\\Core\\Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Amazondigi.com\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Amazondigi.com\\.nuget\\packages\\microsoft.aspnetcore.antiforgery\\2.2.0\\microsoft.aspnetcore.antiforgery.2.2.0.nupkg.sha512",

@@ -102,5 +102,26 @@ namespace Core
 
         }
 
+        public bool CheckUserPermission(int permissionId, string userName)
+
+        {
+
+            var userId = _context.Users.Single(u => u.Name == userName).UserId;
+
+            List<int> userroles = _context.UserRoles.Where(ur => ur.UserId == userId).Select
+                (ur => ur.RoleId).ToList();
+
+            if (!userroles.Any())
+            {
+                return false;
+            }
+
+            List<int> rolepermissions=_context.RolePermissions.Where(rp=>rp.PermissionId==permissionId).
+                Select(rp=>rp.RoleId).ToList();
+
+          return  rolepermissions.Any(rl=> userroles.Contains(rl));
+
+
+        }
     }
 }

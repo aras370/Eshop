@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace MyEshop.Pages.Admin.Products
 {
+    [PermissionChecker(5)]
     public class CreateModel : PageModel
     {
         ICategoryService _categoryService;

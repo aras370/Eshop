@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace MyEshop.Pages.Admin.Roles
 {
+    [PermissionChecker(8)]
     public class CreateModel : PageModel
     {
 

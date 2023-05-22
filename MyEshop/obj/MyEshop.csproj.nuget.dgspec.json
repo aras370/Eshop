@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\MyEshop\\MyEshop\\MyEshop.csproj": {}
+    "C:\\Users\\Amazondigi.com\\Desktop\\Eshop\\MyEshop\\MyEshop.csproj": {}
   },
   "projects": {
-    "D:\\MyEshop\\Core\\Core.csproj": {
+    "C:\\Users\\Amazondigi.com\\Desktop\\Eshop\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\MyEshop\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\Amazondigi.com\\Desktop\\Eshop\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "D:\\MyEshop\\Core\\Core.csproj",
+        "projectPath": "C:\\Users\\Amazondigi.com\\Desktop\\Eshop\\Core\\Core.csproj",
         "packagesPath": "C:\\Users\\Amazondigi.com\\.nuget\\packages\\",
-        "outputPath": "D:\\MyEshop\\Core\\obj\\",
+        "outputPath": "C:\\Users\\Amazondigi.com\\Desktop\\Eshop\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,8 +32,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\MyEshop\\DataLayer\\DataLayer.csproj": {
-                "projectPath": "D:\\MyEshop\\DataLayer\\DataLayer.csproj"
+              "C:\\Users\\Amazondigi.com\\Desktop\\Eshop\\DataLayer\\DataLayer.csproj": {
+                "projectPath": "C:\\Users\\Amazondigi.com\\Desktop\\Eshop\\DataLayer\\DataLayer.csproj"
               }
             }
           }
@@ -105,14 +105,14 @@
         }
       }
     },
-    "D:\\MyEshop\\DataLayer\\DataLayer.csproj": {
+    "C:\\Users\\Amazondigi.com\\Desktop\\Eshop\\DataLayer\\DataLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\MyEshop\\DataLayer\\DataLayer.csproj",
+        "projectUniqueName": "C:\\Users\\Amazondigi.com\\Desktop\\Eshop\\DataLayer\\DataLayer.csproj",
         "projectName": "DataLayer",
-        "projectPath": "D:\\MyEshop\\DataLayer\\DataLayer.csproj",
+        "projectPath": "C:\\Users\\Amazondigi.com\\Desktop\\Eshop\\DataLayer\\DataLayer.csproj",
         "packagesPath": "C:\\Users\\Amazondigi.com\\.nuget\\packages\\",
-        "outputPath": "D:\\MyEshop\\DataLayer\\obj\\",
+        "outputPath": "C:\\Users\\Amazondigi.com\\Desktop\\Eshop\\DataLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -202,14 +202,14 @@
         }
       }
     },
-    "D:\\MyEshop\\MyEshop\\MyEshop.csproj": {
+    "C:\\Users\\Amazondigi.com\\Desktop\\Eshop\\MyEshop\\MyEshop.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\MyEshop\\MyEshop\\MyEshop.csproj",
+        "projectUniqueName": "C:\\Users\\Amazondigi.com\\Desktop\\Eshop\\MyEshop\\MyEshop.csproj",
         "projectName": "MyEshop",
-        "projectPath": "D:\\MyEshop\\MyEshop\\MyEshop.csproj",
+        "projectPath": "C:\\Users\\Amazondigi.com\\Desktop\\Eshop\\MyEshop\\MyEshop.csproj",
         "packagesPath": "C:\\Users\\Amazondigi.com\\.nuget\\packages\\",
-        "outputPath": "D:\\MyEshop\\MyEshop\\obj\\",
+        "outputPath": "C:\\Users\\Amazondigi.com\\Desktop\\Eshop\\MyEshop\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -230,11 +230,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\MyEshop\\Core\\Core.csproj": {
-                "projectPath": "D:\\MyEshop\\Core\\Core.csproj"
+              "C:\\Users\\Amazondigi.com\\Desktop\\Eshop\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\Amazondigi.com\\Desktop\\Eshop\\Core\\Core.csproj"
               },
-              "D:\\MyEshop\\DataLayer\\DataLayer.csproj": {
-                "projectPath": "D:\\MyEshop\\DataLayer\\DataLayer.csproj"
+              "C:\\Users\\Amazondigi.com\\Desktop\\Eshop\\DataLayer\\DataLayer.csproj": {
+                "projectPath": "C:\\Users\\Amazondigi.com\\Desktop\\Eshop\\DataLayer\\DataLayer.csproj"
               }
             }
           }

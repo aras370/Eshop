@@ -6,6 +6,8 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace MyEshop.Pages.Admin.Products
 {
+    [PermissionChecker(6)]
+
     public class EditModel : PageModel
     {
 

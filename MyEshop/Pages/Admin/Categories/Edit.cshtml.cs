@@ -5,6 +5,8 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace MyEshop.Pages.Admin.Categories
 {
+    [PermissionChecker(12)]
+
     public class EditModel : PageModel
     {
 

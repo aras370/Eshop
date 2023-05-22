@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace MyEshop.Pages.Admin.Users
 {
+    [PermissionChecker(4)]
     public class EditModel : PageModel
     {
         IUserService _userservice;

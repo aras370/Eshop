@@ -5,6 +5,8 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace MyEshop.Pages.Admin.Categories
 {
+    [PermissionChecker(11)]
+
     public class CreateModel : PageModel
     {
         ICategoryService _categoryService;

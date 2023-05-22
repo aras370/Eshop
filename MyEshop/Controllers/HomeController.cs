@@ -156,7 +156,7 @@ namespace MyEshop.Controllers
             return Redirect("/Home/Login");
         }
 
-        [Authorize]
+     
         public IActionResult ForgetPassword()
         {
             return View();
