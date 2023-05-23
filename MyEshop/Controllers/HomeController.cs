@@ -153,7 +153,7 @@ namespace MyEshop.Controllers
         public IActionResult LogOut()
         {
             HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
-            return Redirect("/Home/Login");
+            return Redirect("/");
         }
 
      
