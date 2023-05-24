@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "wVTIC9ji16YxntihiKaA4MjvWLVFMS4BqNT+5seEREc=",
+  "Hash": "WGwadsd1adV2pJdAmKYmraqev8iS8m47uqr6IArr1Hk=",
   "Source": "MyEshop",
   "BasePath": "_content/MyEshop",
   "Mode": "Default",
@@ -1460,23 +1460,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\SliderImages\\تحویل-فوری-ابزارچی.jpg"
-    },
-    {
-      "Identity": "C:\\Users\\Amazondigi.com\\Desktop\\Eshop\\MyEshop\\wwwroot\\UserAvatar\\0d21af120dd44b0fabde80cdd3410558.jpg",
-      "SourceId": "MyEshop",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Amazondigi.com\\Desktop\\Eshop\\MyEshop\\wwwroot\\",
-      "BasePath": "_content/MyEshop",
-      "RelativePath": "UserAvatar/0d21af120dd44b0fabde80cdd3410558.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\UserAvatar\\0d21af120dd44b0fabde80cdd3410558.jpg"
     },
     {
       "Identity": "C:\\Users\\Amazondigi.com\\Desktop\\Eshop\\MyEshop\\wwwroot\\UserAvatar\\17bbfa4fe40a4e1e8022d8bb2cbab1bd.jpg",

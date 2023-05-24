@@ -43,5 +43,7 @@ namespace DataLayer
         public Category Category { get; set; }
 
         public List<OrderDetail> OrderDetails { get; set; }
+
+        public List<Comment> Comments { get; set; }
     }
 }
