@@ -26,6 +26,10 @@ namespace Core
 
         List<Product> MostPopularProducts();
 
+        void AddComment(Comment comment);
+
+        List<Comment> GetComments(int productId);
+
 
     }
 }

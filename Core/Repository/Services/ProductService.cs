@@ -142,5 +142,17 @@ namespace Core
         {
             return _context.Products.OrderByDescending(p=>p.SalesNumber).Take(4).ToList();  
         }
+
+
+        public void AddComment(Comment comment)
+        {
+            _context.Add(comment);
+            _context.SaveChanges();
+        }
+
+        public List<Comment> GetComments(int productId)
+        {
+            return _context.Comments.Include(c=>c.User).OrderByDescending(c=>c.DateTime).Where(c=>c.ProductId==productId).ToList();
+        }
     }
 }

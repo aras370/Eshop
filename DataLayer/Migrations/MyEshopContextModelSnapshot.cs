@@ -40,6 +40,37 @@ namespace DataLayer.Migrations
                     b.ToTable("Categories");
                 });
 
+            modelBuilder.Entity("DataLayer.Comment", b =>
+                {
+                    b.Property<int>("CommentId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("CommentId"), 1L, 1);
+
+                    b.Property<string>("CommentText")
+                        .IsRequired()
+                        .HasMaxLength(300)
+                        .HasColumnType("nvarchar(300)");
+
+                    b.Property<DateTime>("DateTime")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("ProductId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("UserId")
+                        .HasColumnType("int");
+
+                    b.HasKey("CommentId");
+
+                    b.HasIndex("ProductId");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("Comments");
+                });
+
             modelBuilder.Entity("DataLayer.Order", b =>
                 {
                     b.Property<int>("OrderId")
@@ -259,6 +290,25 @@ namespace DataLayer.Migrations
                     b.ToTable("UserRoles");
                 });
 
+            modelBuilder.Entity("DataLayer.Comment", b =>
+                {
+                    b.HasOne("DataLayer.Product", "Product")
+                        .WithMany("Comments")
+                        .HasForeignKey("ProductId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("DataLayer.User", "User")
+                        .WithMany("Comments")
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Product");
+
+                    b.Navigation("User");
+                });
+
             modelBuilder.Entity("DataLayer.Order", b =>
                 {
                     b.HasOne("DataLayer.User", "User")
@@ -355,6 +405,8 @@ namespace DataLayer.Migrations
 
             modelBuilder.Entity("DataLayer.Product", b =>
                 {
+                    b.Navigation("Comments");
+
                     b.Navigation("OrderDetails");
                 });
 
@@ -367,6 +419,8 @@ namespace DataLayer.Migrations
 
             modelBuilder.Entity("DataLayer.User", b =>
                 {
+                    b.Navigation("Comments");
+
                     b.Navigation("Orders");
 
                     b.Navigation("UserRoles");

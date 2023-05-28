@@ -25,7 +25,8 @@
                             <p class="card-text">قیمت: @item.Price تومان</p>
                             <p class="card-text"><small class="text-muted">توضیحات: @item.Description</small></p>
                             <p>
-                                <a class="btn btn-success" asp-controller="Order" asp-action="AddToCart" asp-route-productId="@item.ProductId">افزودن به سبد خرید</a>
+                                <a class="btn btn-success" asp-controller="Order" asp-action="AddToCart" asp-route-productId="@item.ProductId">افزودن به سبد خرید</a> |
+                                <a class="btn btn-primary" asp-action="ShowProduct" asp-route-id="@item.ProductId">مشاهده نظرات</a>
                             </p>
                         </div>
                     </div>

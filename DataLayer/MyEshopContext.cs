@@ -34,6 +34,8 @@ namespace DataLayer
 
         public DbSet<RolePermissions> RolePermissions { get; set; }
 
+        public DbSet<Comment> Comments { get; set; }
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<User>().HasQueryFilter(u => !u.IsDelete);
