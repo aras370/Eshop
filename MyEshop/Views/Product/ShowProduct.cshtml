@@ -56,7 +56,7 @@
 
             <form asp-controller="Product" asp-action="AddComment">
                 <input type="hidden" asp-for="@Model.ProductId" name="productId" />
-                <textarea placeholder="نظر خودتان را بنویسید" name="comment"></textarea>
+                <textarea id="txtcomment" placeholder="نظر خودتان را بنویسید" name="comment"></textarea>
                 <div>
 
                     <button class="btn btn-primary" type="submit">ارسال</button>

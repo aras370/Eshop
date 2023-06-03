@@ -43,6 +43,12 @@ namespace MyEshop.Controllers
         public IActionResult AddComment(string comment,int productId)
         {
 
+            if (comment==null)
+            {
+                return Redirect("/Product/ShowProduct/" + productId);
+            }
+
+
             var user = _userService.GetUserByUserName(User.Identity.Name);
 
             Comment newcomment = new Comment()
@@ -54,6 +60,7 @@ namespace MyEshop.Controllers
             };
 
             _productService.AddComment(newcomment);
+
 
             return Redirect("/Product/ShowProduct/" + productId);
         }

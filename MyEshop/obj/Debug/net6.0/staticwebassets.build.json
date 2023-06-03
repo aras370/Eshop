@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "WGwadsd1adV2pJdAmKYmraqev8iS8m47uqr6IArr1Hk=",
+  "Hash": "7xZRqduXq06ocF63VG8qguYqtV/pHZx4Bzd4f7Z8Pmc=",
   "Source": "MyEshop",
   "BasePath": "_content/MyEshop",
   "Mode": "Default",
@@ -1494,6 +1494,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\UserAvatar\\4ab8639cf88e49759e3b0eef8a96553f.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Amazondigi.com\\Desktop\\Eshop\\MyEshop\\wwwroot\\UserAvatar\\74ca9ee962674748aa6908f41bd2138d.jpg",
+      "SourceId": "MyEshop",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Amazondigi.com\\Desktop\\Eshop\\MyEshop\\wwwroot\\",
+      "BasePath": "_content/MyEshop",
+      "RelativePath": "UserAvatar/74ca9ee962674748aa6908f41bd2138d.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\UserAvatar\\74ca9ee962674748aa6908f41bd2138d.jpg"
     },
     {
       "Identity": "C:\\Users\\Amazondigi.com\\Desktop\\Eshop\\MyEshop\\wwwroot\\UserAvatar\\c20389eee3c941bea7e6f99c3a4eab6a.jpg",
