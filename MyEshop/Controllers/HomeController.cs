@@ -20,6 +20,7 @@ namespace MyEshop.Controllers
         private IUserService _userService;
         private IViewRenderService _viewRenderService;
         IProductService _productService;
+
         public HomeController(ILogger<HomeController> logger, IUserService userService, IViewRenderService viewRenderService,IProductService productService)
         {
             _logger = logger;
@@ -63,7 +64,7 @@ namespace MyEshop.Controllers
                 ModelState.AddModelError("Name", "نام کاربری یا ایمیل از قبل وجود دارد");
                 return View(user);
             }
-
+        
             User user1 = new User()
             {
                 Name = username,
@@ -209,6 +210,9 @@ namespace MyEshop.Controllers
             return View("_SuccessFulUpdatePassword");
         }
 
-        
+        public IActionResult AccessDenied()
+        {
+            return View();
+        }
     }
 }

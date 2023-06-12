@@ -33,7 +33,7 @@ namespace Core
 
                 if (!_roleservice.CheckUserPermission(_permissionId, userName))
                 {
-                    context.Result = new RedirectResult("/Home/Login");
+                    context.Result = new RedirectResult("/Home/AccessDenied");
 
                 }
 

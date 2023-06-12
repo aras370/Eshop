@@ -34,10 +34,10 @@
                                     پنل مدیریت
                                 </a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    @foreach (var item in _categoryservice.GetCategories())
-                                    {
-                                        <li><a class="dropdown-item" href="#">@item.Name</a></li>
-                                    }
+                                    <li><a class="dropdown-item" href="/Admin/Users">مدیریت کاربران</a></li>
+                                    <li><a class="dropdown-item" href="/Admin/Products">محصولات</a></li>
+                                    <li><a class="dropdown-item" href="/Admin/Categories">دسته بندی ها</a></li>
+                                    <li><a class="dropdown-item" href="/Admin/Roles">نقش ها </a></li>
                                 </ul>
                             </li>
                         }

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Core
 {
-    public class HashPassword
+    public static class HashPassword
     {
 
         public static string EncodePasswordMd5(string pass) //Encrypt using MD5   
