@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace MyEshop.Pages.Admin.Roles
 {
+    [PermissionChecker(17)]
     public class IndexModel : PageModel
     {
 

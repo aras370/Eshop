@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace MyEshop.Pages.Admin.Products
 {
-    [Authorize]
+    [PermissionChecker(15)]
     public class IndexModel : PageModel
     {
 

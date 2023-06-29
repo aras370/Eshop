@@ -51,7 +51,7 @@
 
                             @foreach (var item in _categoryservice.GetCategories())
                             {
-                                <li><a class="dropdown-item" href="#">@item.Name</a></li>
+                                <li><a class="dropdown-item" asp-area="" asp-controller="Product" asp-action="ShowProductInCategory" asp-route-categoryId="@item.CategoryId" >@item.Name</a></li>
                             }
 
                         </ul>
