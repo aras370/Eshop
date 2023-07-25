@@ -39,6 +39,7 @@ namespace Core
 
 
             }
+
             else
             {
                 context.Result = new RedirectResult("/Home/Login");

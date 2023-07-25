@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Amazondigi.com\\Desktop\\Eshop\\MyEshop\\MyEshop.csproj": {}
+    "C:\\Users\\AmirHesam\\Desktop\\test\\Eshop\\MyEshop\\MyEshop.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Amazondigi.com\\Desktop\\Eshop\\Core\\Core.csproj": {
+    "C:\\Users\\AmirHesam\\Desktop\\test\\Eshop\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Amazondigi.com\\Desktop\\Eshop\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\AmirHesam\\Desktop\\test\\Eshop\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\Amazondigi.com\\Desktop\\Eshop\\Core\\Core.csproj",
-        "packagesPath": "C:\\Users\\Amazondigi.com\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Amazondigi.com\\Desktop\\Eshop\\Core\\obj\\",
+        "projectPath": "C:\\Users\\AmirHesam\\Desktop\\test\\Eshop\\Core\\Core.csproj",
+        "packagesPath": "C:\\Users\\AmirHesam\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\AmirHesam\\Desktop\\test\\Eshop\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Amazondigi.com\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\AmirHesam\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -32,8 +32,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Amazondigi.com\\Desktop\\Eshop\\DataLayer\\DataLayer.csproj": {
-                "projectPath": "C:\\Users\\Amazondigi.com\\Desktop\\Eshop\\DataLayer\\DataLayer.csproj"
+              "C:\\Users\\AmirHesam\\Desktop\\test\\Eshop\\DataLayer\\DataLayer.csproj": {
+                "projectPath": "C:\\Users\\AmirHesam\\Desktop\\test\\Eshop\\DataLayer\\DataLayer.csproj"
               }
             }
           }
@@ -101,24 +101,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Amazondigi.com\\Desktop\\Eshop\\DataLayer\\DataLayer.csproj": {
+    "C:\\Users\\AmirHesam\\Desktop\\test\\Eshop\\DataLayer\\DataLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Amazondigi.com\\Desktop\\Eshop\\DataLayer\\DataLayer.csproj",
+        "projectUniqueName": "C:\\Users\\AmirHesam\\Desktop\\test\\Eshop\\DataLayer\\DataLayer.csproj",
         "projectName": "DataLayer",
-        "projectPath": "C:\\Users\\Amazondigi.com\\Desktop\\Eshop\\DataLayer\\DataLayer.csproj",
-        "packagesPath": "C:\\Users\\Amazondigi.com\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Amazondigi.com\\Desktop\\Eshop\\DataLayer\\obj\\",
+        "projectPath": "C:\\Users\\AmirHesam\\Desktop\\test\\Eshop\\DataLayer\\DataLayer.csproj",
+        "packagesPath": "C:\\Users\\AmirHesam\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\AmirHesam\\Desktop\\test\\Eshop\\DataLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Amazondigi.com\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\AmirHesam\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -198,24 +198,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Amazondigi.com\\Desktop\\Eshop\\MyEshop\\MyEshop.csproj": {
+    "C:\\Users\\AmirHesam\\Desktop\\test\\Eshop\\MyEshop\\MyEshop.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Amazondigi.com\\Desktop\\Eshop\\MyEshop\\MyEshop.csproj",
+        "projectUniqueName": "C:\\Users\\AmirHesam\\Desktop\\test\\Eshop\\MyEshop\\MyEshop.csproj",
         "projectName": "MyEshop",
-        "projectPath": "C:\\Users\\Amazondigi.com\\Desktop\\Eshop\\MyEshop\\MyEshop.csproj",
-        "packagesPath": "C:\\Users\\Amazondigi.com\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Amazondigi.com\\Desktop\\Eshop\\MyEshop\\obj\\",
+        "projectPath": "C:\\Users\\AmirHesam\\Desktop\\test\\Eshop\\MyEshop\\MyEshop.csproj",
+        "packagesPath": "C:\\Users\\AmirHesam\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\AmirHesam\\Desktop\\test\\Eshop\\MyEshop\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Amazondigi.com\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\AmirHesam\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -224,17 +224,18 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\sdk\\7.0.306\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Amazondigi.com\\Desktop\\Eshop\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\Amazondigi.com\\Desktop\\Eshop\\Core\\Core.csproj"
+              "C:\\Users\\AmirHesam\\Desktop\\test\\Eshop\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\AmirHesam\\Desktop\\test\\Eshop\\Core\\Core.csproj"
               },
-              "C:\\Users\\Amazondigi.com\\Desktop\\Eshop\\DataLayer\\DataLayer.csproj": {
-                "projectPath": "C:\\Users\\Amazondigi.com\\Desktop\\Eshop\\DataLayer\\DataLayer.csproj"
+              "C:\\Users\\AmirHesam\\Desktop\\test\\Eshop\\DataLayer\\DataLayer.csproj": {
+                "projectPath": "C:\\Users\\AmirHesam\\Desktop\\test\\Eshop\\DataLayer\\DataLayer.csproj"
               }
             }
           }
@@ -309,7 +310,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
         }
       }
     }

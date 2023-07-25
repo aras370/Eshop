@@ -1,363 +1,363 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\Amazondigi.com\\Desktop\\Eshop\\MyEshop\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\MyEshop.bundle.scp.css",
+      "Id": "C:\\Users\\AmirHesam\\Desktop\\test\\Eshop\\MyEshop\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\MyEshop.bundle.scp.css",
       "PackagePath": "staticwebassets\\MyEshop.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\Amazondigi.com\\Desktop\\Eshop\\MyEshop\\wwwroot\\ProductsImages\\0c8a6850cc064f8b995c65ca32610551.jpg",
+      "Id": "C:\\Users\\AmirHesam\\Desktop\\test\\Eshop\\MyEshop\\wwwroot\\ProductsImages\\0c8a6850cc064f8b995c65ca32610551.jpg",
       "PackagePath": "staticwebassets\\ProductsImages\\0c8a6850cc064f8b995c65ca32610551.jpg"
     },
     {
-      "Id": "C:\\Users\\Amazondigi.com\\Desktop\\Eshop\\MyEshop\\wwwroot\\ProductsImages\\22b9efbc8d364c21a6be742bbfdf47de.jpg",
+      "Id": "C:\\Users\\AmirHesam\\Desktop\\test\\Eshop\\MyEshop\\wwwroot\\ProductsImages\\22b9efbc8d364c21a6be742bbfdf47de.jpg",
       "PackagePath": "staticwebassets\\ProductsImages\\22b9efbc8d364c21a6be742bbfdf47de.jpg"
     },
     {
-      "Id": "C:\\Users\\Amazondigi.com\\Desktop\\Eshop\\MyEshop\\wwwroot\\ProductsImages\\29abf762a43f495284043ddba60cba6b.jpg",
+      "Id": "C:\\Users\\AmirHesam\\Desktop\\test\\Eshop\\MyEshop\\wwwroot\\ProductsImages\\29abf762a43f495284043ddba60cba6b.jpg",
       "PackagePath": "staticwebassets\\ProductsImages\\29abf762a43f495284043ddba60cba6b.jpg"
     },
     {
-      "Id": "C:\\Users\\Amazondigi.com\\Desktop\\Eshop\\MyEshop\\wwwroot\\ProductsImages\\2ef295556d854fb4a82c92c93ee770a7.jpg",
+      "Id": "C:\\Users\\AmirHesam\\Desktop\\test\\Eshop\\MyEshop\\wwwroot\\ProductsImages\\2ef295556d854fb4a82c92c93ee770a7.jpg",
       "PackagePath": "staticwebassets\\ProductsImages\\2ef295556d854fb4a82c92c93ee770a7.jpg"
     },
     {
-      "Id": "C:\\Users\\Amazondigi.com\\Desktop\\Eshop\\MyEshop\\wwwroot\\ProductsImages\\4601edc734c449f783f617b14a1d7387.webp",
+      "Id": "C:\\Users\\AmirHesam\\Desktop\\test\\Eshop\\MyEshop\\wwwroot\\ProductsImages\\4601edc734c449f783f617b14a1d7387.webp",
       "PackagePath": "staticwebassets\\ProductsImages\\4601edc734c449f783f617b14a1d7387.webp"
     },
     {
-      "Id": "C:\\Users\\Amazondigi.com\\Desktop\\Eshop\\MyEshop\\wwwroot\\ProductsImages\\480c08c2728146e997f21f558e6246b2.jpg",
+      "Id": "C:\\Users\\AmirHesam\\Desktop\\test\\Eshop\\MyEshop\\wwwroot\\ProductsImages\\480c08c2728146e997f21f558e6246b2.jpg",
       "PackagePath": "staticwebassets\\ProductsImages\\480c08c2728146e997f21f558e6246b2.jpg"
     },
     {
-      "Id": "C:\\Users\\Amazondigi.com\\Desktop\\Eshop\\MyEshop\\wwwroot\\ProductsImages\\6292e1c021c243a9ab1c70ed5606a4f7.jpg",
+      "Id": "C:\\Users\\AmirHesam\\Desktop\\test\\Eshop\\MyEshop\\wwwroot\\ProductsImages\\6292e1c021c243a9ab1c70ed5606a4f7.jpg",
       "PackagePath": "staticwebassets\\ProductsImages\\6292e1c021c243a9ab1c70ed5606a4f7.jpg"
     },
     {
-      "Id": "C:\\Users\\Amazondigi.com\\Desktop\\Eshop\\MyEshop\\wwwroot\\ProductsImages\\737c03b1914849239a0258cd995db110.jpg",
+      "Id": "C:\\Users\\AmirHesam\\Desktop\\test\\Eshop\\MyEshop\\wwwroot\\ProductsImages\\737c03b1914849239a0258cd995db110.jpg",
       "PackagePath": "staticwebassets\\ProductsImages\\737c03b1914849239a0258cd995db110.jpg"
     },
     {
-      "Id": "C:\\Users\\Amazondigi.com\\Desktop\\Eshop\\MyEshop\\wwwroot\\ProductsImages\\94cc1436454f4d7f8a5fcd650dcd6bd7.jpg",
+      "Id": "C:\\Users\\AmirHesam\\Desktop\\test\\Eshop\\MyEshop\\wwwroot\\ProductsImages\\94cc1436454f4d7f8a5fcd650dcd6bd7.jpg",
       "PackagePath": "staticwebassets\\ProductsImages\\94cc1436454f4d7f8a5fcd650dcd6bd7.jpg"
     },
     {
-      "Id": "C:\\Users\\Amazondigi.com\\Desktop\\Eshop\\MyEshop\\wwwroot\\ProductsImages\\NoPhoto.jpg",
+      "Id": "C:\\Users\\AmirHesam\\Desktop\\test\\Eshop\\MyEshop\\wwwroot\\ProductsImages\\NoPhoto.jpg",
       "PackagePath": "staticwebassets\\ProductsImages\\NoPhoto.jpg"
     },
     {
-      "Id": "C:\\Users\\Amazondigi.com\\Desktop\\Eshop\\MyEshop\\wwwroot\\ProductsImages\\a34aae944b1d49abab1f18f1f63b0ed6.jpg",
+      "Id": "C:\\Users\\AmirHesam\\Desktop\\test\\Eshop\\MyEshop\\wwwroot\\ProductsImages\\a34aae944b1d49abab1f18f1f63b0ed6.jpg",
       "PackagePath": "staticwebassets\\ProductsImages\\a34aae944b1d49abab1f18f1f63b0ed6.jpg"
     },
     {
-      "Id": "C:\\Users\\Amazondigi.com\\Desktop\\Eshop\\MyEshop\\wwwroot\\ProductsImages\\c28657a5ac2247abac7f3a6792169017.jpg",
+      "Id": "C:\\Users\\AmirHesam\\Desktop\\test\\Eshop\\MyEshop\\wwwroot\\ProductsImages\\c28657a5ac2247abac7f3a6792169017.jpg",
       "PackagePath": "staticwebassets\\ProductsImages\\c28657a5ac2247abac7f3a6792169017.jpg"
     },
     {
-      "Id": "C:\\Users\\Amazondigi.com\\Desktop\\Eshop\\MyEshop\\wwwroot\\ProductsImages\\c4104c76adfe4a82a7e499e097ce615b.jpg",
+      "Id": "C:\\Users\\AmirHesam\\Desktop\\test\\Eshop\\MyEshop\\wwwroot\\ProductsImages\\c4104c76adfe4a82a7e499e097ce615b.jpg",
       "PackagePath": "staticwebassets\\ProductsImages\\c4104c76adfe4a82a7e499e097ce615b.jpg"
     },
     {
-      "Id": "C:\\Users\\Amazondigi.com\\Desktop\\Eshop\\MyEshop\\wwwroot\\ProductsImages\\fa1dc0c0fa7a4a67941c818ee08bf16f.jpg",
+      "Id": "C:\\Users\\AmirHesam\\Desktop\\test\\Eshop\\MyEshop\\wwwroot\\ProductsImages\\fa1dc0c0fa7a4a67941c818ee08bf16f.jpg",
       "PackagePath": "staticwebassets\\ProductsImages\\fa1dc0c0fa7a4a67941c818ee08bf16f.jpg"
     },
     {
-      "Id": "C:\\Users\\Amazondigi.com\\Desktop\\Eshop\\MyEshop\\wwwroot\\ProductsImages\\fa278c6570dc49dfb3b12175b62503b9.jpg",
+      "Id": "C:\\Users\\AmirHesam\\Desktop\\test\\Eshop\\MyEshop\\wwwroot\\ProductsImages\\fa278c6570dc49dfb3b12175b62503b9.jpg",
       "PackagePath": "staticwebassets\\ProductsImages\\fa278c6570dc49dfb3b12175b62503b9.jpg"
     },
     {
-      "Id": "C:\\Users\\Amazondigi.com\\Desktop\\Eshop\\MyEshop\\wwwroot\\ProductsImages\\fb642c0c7fb14d8795eca33096befd34.jpg",
+      "Id": "C:\\Users\\AmirHesam\\Desktop\\test\\Eshop\\MyEshop\\wwwroot\\ProductsImages\\fb642c0c7fb14d8795eca33096befd34.jpg",
       "PackagePath": "staticwebassets\\ProductsImages\\fb642c0c7fb14d8795eca33096befd34.jpg"
     },
     {
-      "Id": "C:\\Users\\Amazondigi.com\\Desktop\\Eshop\\MyEshop\\wwwroot\\SliderImages\\2-2.jpg",
+      "Id": "C:\\Users\\AmirHesam\\Desktop\\test\\Eshop\\MyEshop\\wwwroot\\SliderImages\\2-2.jpg",
       "PackagePath": "staticwebassets\\SliderImages\\2-2.jpg"
     },
     {
-      "Id": "C:\\Users\\Amazondigi.com\\Desktop\\Eshop\\MyEshop\\wwwroot\\SliderImages\\810c9207-cfca-4a21-a7fa-a55194f0a79e.jpg",
+      "Id": "C:\\Users\\AmirHesam\\Desktop\\test\\Eshop\\MyEshop\\wwwroot\\SliderImages\\810c9207-cfca-4a21-a7fa-a55194f0a79e.jpg",
       "PackagePath": "staticwebassets\\SliderImages\\810c9207-cfca-4a21-a7fa-a55194f0a79e.jpg"
     },
     {
-      "Id": "C:\\Users\\Amazondigi.com\\Desktop\\Eshop\\MyEshop\\wwwroot\\SliderImages\\تحویل-فوری-ابزارچی.jpg",
+      "Id": "C:\\Users\\AmirHesam\\Desktop\\test\\Eshop\\MyEshop\\wwwroot\\SliderImages\\تحویل-فوری-ابزارچی.jpg",
       "PackagePath": "staticwebassets\\SliderImages\\تحویل-فوری-ابزارچی.jpg"
     },
     {
-      "Id": "C:\\Users\\Amazondigi.com\\Desktop\\Eshop\\MyEshop\\wwwroot\\UserAvatar\\17bbfa4fe40a4e1e8022d8bb2cbab1bd.jpg",
+      "Id": "C:\\Users\\AmirHesam\\Desktop\\test\\Eshop\\MyEshop\\wwwroot\\UserAvatar\\17bbfa4fe40a4e1e8022d8bb2cbab1bd.jpg",
       "PackagePath": "staticwebassets\\UserAvatar\\17bbfa4fe40a4e1e8022d8bb2cbab1bd.jpg"
     },
     {
-      "Id": "C:\\Users\\Amazondigi.com\\Desktop\\Eshop\\MyEshop\\wwwroot\\UserAvatar\\4ab8639cf88e49759e3b0eef8a96553f.jpg",
+      "Id": "C:\\Users\\AmirHesam\\Desktop\\test\\Eshop\\MyEshop\\wwwroot\\UserAvatar\\4ab8639cf88e49759e3b0eef8a96553f.jpg",
       "PackagePath": "staticwebassets\\UserAvatar\\4ab8639cf88e49759e3b0eef8a96553f.jpg"
     },
     {
-      "Id": "C:\\Users\\Amazondigi.com\\Desktop\\Eshop\\MyEshop\\wwwroot\\UserAvatar\\74ca9ee962674748aa6908f41bd2138d.jpg",
+      "Id": "C:\\Users\\AmirHesam\\Desktop\\test\\Eshop\\MyEshop\\wwwroot\\UserAvatar\\74ca9ee962674748aa6908f41bd2138d.jpg",
       "PackagePath": "staticwebassets\\UserAvatar\\74ca9ee962674748aa6908f41bd2138d.jpg"
     },
     {
-      "Id": "C:\\Users\\Amazondigi.com\\Desktop\\Eshop\\MyEshop\\wwwroot\\UserAvatar\\Defaulte.jpg",
+      "Id": "C:\\Users\\AmirHesam\\Desktop\\test\\Eshop\\MyEshop\\wwwroot\\UserAvatar\\Defaulte.jpg",
       "PackagePath": "staticwebassets\\UserAvatar\\Defaulte.jpg"
     },
     {
-      "Id": "C:\\Users\\Amazondigi.com\\Desktop\\Eshop\\MyEshop\\wwwroot\\UserAvatar\\c20389eee3c941bea7e6f99c3a4eab6a.jpg",
+      "Id": "C:\\Users\\AmirHesam\\Desktop\\test\\Eshop\\MyEshop\\wwwroot\\UserAvatar\\c20389eee3c941bea7e6f99c3a4eab6a.jpg",
       "PackagePath": "staticwebassets\\UserAvatar\\c20389eee3c941bea7e6f99c3a4eab6a.jpg"
     },
     {
-      "Id": "C:\\Users\\Amazondigi.com\\Desktop\\Eshop\\MyEshop\\wwwroot\\UserAvatar\\f1efd411151a434ca8ed56d2816e3be9.jpg",
+      "Id": "C:\\Users\\AmirHesam\\Desktop\\test\\Eshop\\MyEshop\\wwwroot\\UserAvatar\\f1efd411151a434ca8ed56d2816e3be9.jpg",
       "PackagePath": "staticwebassets\\UserAvatar\\f1efd411151a434ca8ed56d2816e3be9.jpg"
     },
     {
-      "Id": "C:\\Users\\Amazondigi.com\\Desktop\\Eshop\\MyEshop\\wwwroot\\css\\site.css",
+      "Id": "C:\\Users\\AmirHesam\\Desktop\\test\\Eshop\\MyEshop\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "C:\\Users\\Amazondigi.com\\Desktop\\Eshop\\MyEshop\\wwwroot\\favicon.ico",
+      "Id": "C:\\Users\\AmirHesam\\Desktop\\test\\Eshop\\MyEshop\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\Amazondigi.com\\Desktop\\Eshop\\MyEshop\\wwwroot\\js\\site.js",
+      "Id": "C:\\Users\\AmirHesam\\Desktop\\test\\Eshop\\MyEshop\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "C:\\Users\\Amazondigi.com\\Desktop\\Eshop\\MyEshop\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "C:\\Users\\AmirHesam\\Desktop\\test\\Eshop\\MyEshop\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "C:\\Users\\Amazondigi.com\\Desktop\\Eshop\\MyEshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "C:\\Users\\AmirHesam\\Desktop\\test\\Eshop\\MyEshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "C:\\Users\\Amazondigi.com\\Desktop\\Eshop\\MyEshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "C:\\Users\\AmirHesam\\Desktop\\test\\Eshop\\MyEshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "C:\\Users\\Amazondigi.com\\Desktop\\Eshop\\MyEshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "C:\\Users\\AmirHesam\\Desktop\\test\\Eshop\\MyEshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "C:\\Users\\Amazondigi.com\\Desktop\\Eshop\\MyEshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "C:\\Users\\AmirHesam\\Desktop\\test\\Eshop\\MyEshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Amazondigi.com\\Desktop\\Eshop\\MyEshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "C:\\Users\\AmirHesam\\Desktop\\test\\Eshop\\MyEshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "C:\\Users\\Amazondigi.com\\Desktop\\Eshop\\MyEshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "C:\\Users\\AmirHesam\\Desktop\\test\\Eshop\\MyEshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\Amazondigi.com\\Desktop\\Eshop\\MyEshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "C:\\Users\\AmirHesam\\Desktop\\test\\Eshop\\MyEshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\Amazondigi.com\\Desktop\\Eshop\\MyEshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "C:\\Users\\AmirHesam\\Desktop\\test\\Eshop\\MyEshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Amazondigi.com\\Desktop\\Eshop\\MyEshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "C:\\Users\\AmirHesam\\Desktop\\test\\Eshop\\MyEshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "C:\\Users\\Amazondigi.com\\Desktop\\Eshop\\MyEshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "C:\\Users\\AmirHesam\\Desktop\\test\\Eshop\\MyEshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "C:\\Users\\Amazondigi.com\\Desktop\\Eshop\\MyEshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "C:\\Users\\AmirHesam\\Desktop\\test\\Eshop\\MyEshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "C:\\Users\\Amazondigi.com\\Desktop\\Eshop\\MyEshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "C:\\Users\\AmirHesam\\Desktop\\test\\Eshop\\MyEshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Amazondigi.com\\Desktop\\Eshop\\MyEshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "C:\\Users\\AmirHesam\\Desktop\\test\\Eshop\\MyEshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "C:\\Users\\Amazondigi.com\\Desktop\\Eshop\\MyEshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "C:\\Users\\AmirHesam\\Desktop\\test\\Eshop\\MyEshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\Amazondigi.com\\Desktop\\Eshop\\MyEshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "C:\\Users\\AmirHesam\\Desktop\\test\\Eshop\\MyEshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\Amazondigi.com\\Desktop\\Eshop\\MyEshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "C:\\Users\\AmirHesam\\Desktop\\test\\Eshop\\MyEshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Amazondigi.com\\Desktop\\Eshop\\MyEshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css",
+      "Id": "C:\\Users\\AmirHesam\\Desktop\\test\\Eshop\\MyEshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css"
     },
     {
-      "Id": "C:\\Users\\Amazondigi.com\\Desktop\\Eshop\\MyEshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css.map",
+      "Id": "C:\\Users\\AmirHesam\\Desktop\\test\\Eshop\\MyEshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css.map"
     },
     {
-      "Id": "C:\\Users\\Amazondigi.com\\Desktop\\Eshop\\MyEshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css",
+      "Id": "C:\\Users\\AmirHesam\\Desktop\\test\\Eshop\\MyEshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css"
     },
     {
-      "Id": "C:\\Users\\Amazondigi.com\\Desktop\\Eshop\\MyEshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css.map",
+      "Id": "C:\\Users\\AmirHesam\\Desktop\\test\\Eshop\\MyEshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Amazondigi.com\\Desktop\\Eshop\\MyEshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "C:\\Users\\AmirHesam\\Desktop\\test\\Eshop\\MyEshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "C:\\Users\\Amazondigi.com\\Desktop\\Eshop\\MyEshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "C:\\Users\\AmirHesam\\Desktop\\test\\Eshop\\MyEshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "C:\\Users\\Amazondigi.com\\Desktop\\Eshop\\MyEshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "C:\\Users\\AmirHesam\\Desktop\\test\\Eshop\\MyEshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "C:\\Users\\Amazondigi.com\\Desktop\\Eshop\\MyEshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "C:\\Users\\AmirHesam\\Desktop\\test\\Eshop\\MyEshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Amazondigi.com\\Desktop\\Eshop\\MyEshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "C:\\Users\\AmirHesam\\Desktop\\test\\Eshop\\MyEshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "C:\\Users\\Amazondigi.com\\Desktop\\Eshop\\MyEshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "C:\\Users\\AmirHesam\\Desktop\\test\\Eshop\\MyEshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\Amazondigi.com\\Desktop\\Eshop\\MyEshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "C:\\Users\\AmirHesam\\Desktop\\test\\Eshop\\MyEshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\Amazondigi.com\\Desktop\\Eshop\\MyEshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "C:\\Users\\AmirHesam\\Desktop\\test\\Eshop\\MyEshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Amazondigi.com\\Desktop\\Eshop\\MyEshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "C:\\Users\\AmirHesam\\Desktop\\test\\Eshop\\MyEshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "C:\\Users\\Amazondigi.com\\Desktop\\Eshop\\MyEshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "C:\\Users\\AmirHesam\\Desktop\\test\\Eshop\\MyEshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "C:\\Users\\Amazondigi.com\\Desktop\\Eshop\\MyEshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "C:\\Users\\AmirHesam\\Desktop\\test\\Eshop\\MyEshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\Amazondigi.com\\Desktop\\Eshop\\MyEshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\AmirHesam\\Desktop\\test\\Eshop\\MyEshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Amazondigi.com\\Desktop\\Eshop\\MyEshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "C:\\Users\\AmirHesam\\Desktop\\test\\Eshop\\MyEshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "C:\\Users\\Amazondigi.com\\Desktop\\Eshop\\MyEshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "C:\\Users\\AmirHesam\\Desktop\\test\\Eshop\\MyEshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\Amazondigi.com\\Desktop\\Eshop\\MyEshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "C:\\Users\\AmirHesam\\Desktop\\test\\Eshop\\MyEshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\Amazondigi.com\\Desktop\\Eshop\\MyEshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "C:\\Users\\AmirHesam\\Desktop\\test\\Eshop\\MyEshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Amazondigi.com\\Desktop\\Eshop\\MyEshop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "C:\\Users\\AmirHesam\\Desktop\\test\\Eshop\\MyEshop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "C:\\Users\\Amazondigi.com\\Desktop\\Eshop\\MyEshop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "C:\\Users\\AmirHesam\\Desktop\\test\\Eshop\\MyEshop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "C:\\Users\\Amazondigi.com\\Desktop\\Eshop\\MyEshop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "C:\\Users\\AmirHesam\\Desktop\\test\\Eshop\\MyEshop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "C:\\Users\\Amazondigi.com\\Desktop\\Eshop\\MyEshop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "C:\\Users\\AmirHesam\\Desktop\\test\\Eshop\\MyEshop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "C:\\Users\\Amazondigi.com\\Desktop\\Eshop\\MyEshop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "C:\\Users\\AmirHesam\\Desktop\\test\\Eshop\\MyEshop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "C:\\Users\\Amazondigi.com\\Desktop\\Eshop\\MyEshop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "C:\\Users\\AmirHesam\\Desktop\\test\\Eshop\\MyEshop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "C:\\Users\\Amazondigi.com\\Desktop\\Eshop\\MyEshop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "C:\\Users\\AmirHesam\\Desktop\\test\\Eshop\\MyEshop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "C:\\Users\\Amazondigi.com\\Desktop\\Eshop\\MyEshop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "C:\\Users\\AmirHesam\\Desktop\\test\\Eshop\\MyEshop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "C:\\Users\\Amazondigi.com\\Desktop\\Eshop\\MyEshop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "C:\\Users\\AmirHesam\\Desktop\\test\\Eshop\\MyEshop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "C:\\Users\\Amazondigi.com\\Desktop\\Eshop\\MyEshop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "C:\\Users\\AmirHesam\\Desktop\\test\\Eshop\\MyEshop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "C:\\Users\\Amazondigi.com\\Desktop\\Eshop\\MyEshop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "C:\\Users\\AmirHesam\\Desktop\\test\\Eshop\\MyEshop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\Users\\Amazondigi.com\\Desktop\\Eshop\\MyEshop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "C:\\Users\\AmirHesam\\Desktop\\test\\Eshop\\MyEshop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "C:\\Users\\Amazondigi.com\\Desktop\\Eshop\\MyEshop\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "C:\\Users\\AmirHesam\\Desktop\\test\\Eshop\\MyEshop\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\Amazondigi.com\\Desktop\\Eshop\\MyEshop\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "C:\\Users\\AmirHesam\\Desktop\\test\\Eshop\\MyEshop\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "C:\\Users\\Amazondigi.com\\Desktop\\Eshop\\MyEshop\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "C:\\Users\\AmirHesam\\Desktop\\test\\Eshop\\MyEshop\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "C:\\Users\\Amazondigi.com\\Desktop\\Eshop\\MyEshop\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "C:\\Users\\AmirHesam\\Desktop\\test\\Eshop\\MyEshop\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "C:\\Users\\Amazondigi.com\\Desktop\\Eshop\\MyEshop\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "C:\\Users\\AmirHesam\\Desktop\\test\\Eshop\\MyEshop\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "C:\\Users\\Amazondigi.com\\Desktop\\Eshop\\MyEshop\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "C:\\Users\\AmirHesam\\Desktop\\test\\Eshop\\MyEshop\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "C:\\Users\\Amazondigi.com\\Desktop\\Eshop\\MyEshop\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "C:\\Users\\AmirHesam\\Desktop\\test\\Eshop\\MyEshop\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "C:\\Users\\Amazondigi.com\\Desktop\\Eshop\\MyEshop\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "C:\\Users\\AmirHesam\\Desktop\\test\\Eshop\\MyEshop\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "C:\\Users\\Amazondigi.com\\Desktop\\Eshop\\MyEshop\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "C:\\Users\\AmirHesam\\Desktop\\test\\Eshop\\MyEshop\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\Amazondigi.com\\Desktop\\Eshop\\MyEshop\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "C:\\Users\\AmirHesam\\Desktop\\test\\Eshop\\MyEshop\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "C:\\Users\\Amazondigi.com\\Desktop\\Eshop\\MyEshop\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "C:\\Users\\AmirHesam\\Desktop\\test\\Eshop\\MyEshop\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "C:\\Users\\Amazondigi.com\\Desktop\\Eshop\\MyEshop\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "C:\\Users\\AmirHesam\\Desktop\\test\\Eshop\\MyEshop\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {

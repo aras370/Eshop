@@ -21,7 +21,7 @@ namespace MyEshop.Controllers
         private IViewRenderService _viewRenderService;
         IProductService _productService;
 
-        public HomeController(ILogger<HomeController> logger, IUserService userService, IViewRenderService viewRenderService,IProductService productService)
+        public HomeController(ILogger<HomeController> logger, IUserService userService, IViewRenderService viewRenderService, IProductService productService)
         {
             _logger = logger;
             _userService = userService;
@@ -64,11 +64,11 @@ namespace MyEshop.Controllers
                 ModelState.AddModelError("Name", "نام کاربری یا ایمیل از قبل وجود دارد");
                 return View(user);
             }
-        
+
             User user1 = new User()
             {
                 Name = username,
-                AvatarName= "Defaulte.jpg",
+                AvatarName = "Defaulte.jpg",
                 Email = email,
                 IsActive = false,
                 IsDelete = false,
@@ -98,7 +98,7 @@ namespace MyEshop.Controllers
             return View();
         }
 
-    
+
         public IActionResult Login()
         {
             return View();
@@ -157,7 +157,7 @@ namespace MyEshop.Controllers
             return Redirect("/");
         }
 
-     
+
         public IActionResult ForgetPassword()
         {
             return View();
@@ -166,18 +166,18 @@ namespace MyEshop.Controllers
         [HttpPost]
         public IActionResult ForgetPassword(ForgetPassword model)
         {
-            
+
             var user = _userService.GetUserByEmail(model.Email);
 
-            if (user==null)
+            if (user == null)
             {
-                ModelState.AddModelError("Email","کاربری با این ایمیل وجود ندارد");
+                ModelState.AddModelError("Email", "کاربری با این ایمیل وجود ندارد");
                 return View(model);
             }
 
-          string body= _viewRenderService.RenderToStringAsync("_SendActivationCodeForResetPassword", user);
+            string body = _viewRenderService.RenderToStringAsync("_SendActivationCodeForResetPassword", user);
 
-          Core.SendEmail.Send(model.Email,"بازیابی اطلاعات کاربری",body);
+            Core.SendEmail.Send(model.Email, "بازیابی اطلاعات کاربری", body);
 
             return View("ResetPassword");
         }
@@ -187,7 +187,7 @@ namespace MyEshop.Controllers
         {
             var user = _userService.GetUserByActiveCode(id);
 
-            if (user==null)
+            if (user == null)
             {
                 return NotFound();
             }
@@ -197,13 +197,13 @@ namespace MyEshop.Controllers
         }
 
         [HttpPost]
-        public IActionResult ResetPassword(string activeCode,ResetPassword user)
+        public IActionResult ResetPassword(string activeCode, ResetPassword user)
         {
-            var user1=_userService.GetUserByActiveCode(activeCode);
+            var user1 = _userService.GetUserByActiveCode(activeCode);
 
             var hashpassword = HashPassword.EncodePasswordMd5(user.Password);
 
-            user1.Password= hashpassword;
+            user1.Password = hashpassword;
 
             _userService.UpdateUser(user1);
 

@@ -18,12 +18,13 @@ builder.Services.AddDbContext<MyEshopContext>(options =>
 builder.Services.AddScoped<IUserService, UserService>();
 builder.Services.AddScoped<IViewRenderService, RenderViewToString>();
 builder.Services.AddScoped<IRoleService, RoleService>();
-builder.Services.AddScoped<ICategoryService,CategoryService>();
+builder.Services.AddScoped<ICategoryService, CategoryService>();
 builder.Services.AddScoped<IProductService, ProductService>();
 builder.Services.AddScoped<IOrderService, OrderService>();
 
 builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme).AddCookie(
     options =>
+
     {
         options.LoginPath = "/Home/Login";
         options.LogoutPath = "/Home/Logout";
@@ -63,5 +64,5 @@ app.MapControllerRoute(
 );
 
 app.MapRazorPages();
-    
+
 app.Run();

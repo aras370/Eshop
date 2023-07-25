@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Amazondigi.com\\Desktop\\Eshop\\DataLayer\\DataLayer.csproj": {}
+    "C:\\Users\\AmirHesam\\Desktop\\test\\Eshop\\DataLayer\\DataLayer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Amazondigi.com\\Desktop\\Eshop\\DataLayer\\DataLayer.csproj": {
+    "C:\\Users\\AmirHesam\\Desktop\\test\\Eshop\\DataLayer\\DataLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Amazondigi.com\\Desktop\\Eshop\\DataLayer\\DataLayer.csproj",
+        "projectUniqueName": "C:\\Users\\AmirHesam\\Desktop\\test\\Eshop\\DataLayer\\DataLayer.csproj",
         "projectName": "DataLayer",
-        "projectPath": "C:\\Users\\Amazondigi.com\\Desktop\\Eshop\\DataLayer\\DataLayer.csproj",
-        "packagesPath": "C:\\Users\\Amazondigi.com\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Amazondigi.com\\Desktop\\Eshop\\DataLayer\\obj\\",
+        "projectPath": "C:\\Users\\AmirHesam\\Desktop\\test\\Eshop\\DataLayer\\DataLayer.csproj",
+        "packagesPath": "C:\\Users\\AmirHesam\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\AmirHesam\\Desktop\\test\\Eshop\\DataLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Amazondigi.com\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\AmirHesam\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -97,7 +97,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
         }
       }
     }
